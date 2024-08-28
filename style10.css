@@ -1,0 +1,116 @@
+.header{
+  display: flex;
+  background-color:rgba(0, 0, 0, 0.76);
+  text-align: right;
+}
+
+a{
+    text-decoration: none;
+    margin-right: 25px;
+    color: white;
+}
+
+a:hover{
+    color:cadetblue;
+}
+
+a:last-child {
+    margin-right: 0; /* Remove margin from the last link */
+}
+
+ul{
+    list-style-type: none;
+   
+}
+
+
+
+h1{
+    margin-right: 700px;
+    margin-left: 100px;
+    color: white;
+    text-transform: capitalize;
+}
+.nav{
+    display: flex;
+    text-transform: capitalize;
+    align-items: center;
+    text-align: right;
+    float: right;
+
+}
+
+
+.product{
+    background-color: white;
+    height: 350px;
+    width: 300px;
+    text-align: center;
+    padding: 30px;
+    box-shadow:0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.but{
+    padding: 5px 10px;
+    background-color: rgb(7, 223, 100);
+    border-radius: 5px;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.but:hover{
+    background-color: rgb(11, 184, 86);
+    cursor: pointer;
+}
+
+.raw {
+    display:flex;
+    margin: 0 350px;
+    gap: 20px; 
+}
+
+.raw2 {
+    display:flex;
+    margin: 15px 350px;
+    gap: 20px; 
+    
+}
+
+.products{
+    margin:20px;
+    
+}
+#p:hover{
+    transform: translateY(-5px);
+}
+
+#r:hover{
+    transform: translateY(-5px);
+}
+
+#o:hover{
+    transform: translateY(-5px);
+}
+
+#d:hover{
+    transform: translateY(-5px);
+}
+
+
+body{
+    background-color: whitesmoke;
+    margin: 0%;
+    padding: 0%;
+}
+
+footer{
+    text-align: center;
+    background-color:rgba(0, 0, 0, 0.76);
+    padding: 10px;
+    color: white;
+}
+
+.price{
+   line-height: 5px;
+   color:blue;
+}
